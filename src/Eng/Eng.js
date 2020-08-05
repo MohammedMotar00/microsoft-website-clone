@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../style.css";
+import "./eng.css";
 
 // import { FaSearch } from "react-icons/fa";
 // import { FaShoppingCart } from "react-icons/fa";

@@ -1,28 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import "../style.css";
 import { Link } from "react-router-dom";
 import { FaGlobeEurope } from "react-icons/fa";
 
 function Footer() {
+  const [open, setOpen] = useState(false);
+
+  const handleLanguageMenu = () => {
+    setOpen(!open);
+  };
+
+  const closeLanguageMenu = () => {
+    setOpen(false);
+  };
+
   return (
     <footer>
       <div className="footer-inner">
         <div className="language-container">
-          <ul className="language-nav show">
-            <h1 className="close-language">X</h1>
-            <h2>Choose language</h2>
-            <li>
-              <Link to="/eng">United States - English</Link>
-            </li>
-            <li>
-              <Link to="/swe">Sverige - Svenska</Link>
-            </li>
-            <li>
-              <Link to="/ar">العراق - العربية</Link>
-            </li>
+          <ul className={`language-ul ${open && "show"}`}>
+            <h1
+              onClick={closeLanguageMenu}
+              className={`close-language ${open && "show"}`}
+            >
+              X
+            </h1>
+            <div>
+              <h2 className={`${open && "show"}`}>Choose language</h2>
+              <li className={`${open && "show"}`}>
+                <Link to="/eng">United States - English</Link>
+              </li>
+              <li className={`${open && "show"}`}>
+                <Link to="/swe">Sverige - Svenska</Link>
+              </li>
+              <li className={`${open && "show"}`}>
+                <Link to="/ar">العراق - العربية</Link>
+              </li>
+            </div>
           </ul>
         </div>
-        <div>
+        <div onClick={handleLanguageMenu} style={{ cursor: "pointer" }}>
           <FaGlobeEurope className="globe-icon" />
           English (United States)
         </div>

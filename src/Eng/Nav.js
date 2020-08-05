@@ -1,18 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import "../style.css";
 
 function Nav() {
-  return (
-    // <>
-    // <div class="menu-btn">
-    //   <FaBars className="bars-menu" />
-    // </div>
+  const [toggle, setToggle] = useState(false);
 
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
+
+  return (
     <nav className="main-nav">
-      <div class="menu-btn">
+      <div onClick={handleToggle} class="menu-btn">
         <FaBars className="bars-menu" />
       </div>
 
@@ -22,7 +23,7 @@ function Nav() {
         className="logo"
       />
 
-      <ul className="main-menu show">
+      <ul className={`main-menu ${toggle && "show"}`}>
         <li>
           <a href="#">Microsoft 365</a>
         </li>
@@ -59,7 +60,6 @@ function Nav() {
         </li>
       </ul>
     </nav>
-    // </>
   );
 }
 
