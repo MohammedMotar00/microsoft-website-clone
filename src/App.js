@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Eng from "./Eng";
+import Eng from "./Eng/Eng";
 import Swe from "./Swe";
 import Arabic from "./Arabic";
 
