@@ -1,9 +1,9 @@
 import React from "react";
 import "../style.css";
-import "./eng.css";
+import "./swe.css";
 
 import Nav from "./Nav";
-import Showcase from "./Showcase";
+import Showcase from "./ShowCase";
 import HomeCard1 from "./HomeCard1";
 import Xbox from "./Xbox";
 import HomeCard2 from "./HomeCard2";
@@ -12,7 +12,7 @@ import Follow from "./Follow";
 import Links from "./Links";
 import Footer from "./Footer";
 
-function Eng() {
+function Swe() {
   return (
     <div className="body">
       <div className="container">
@@ -47,4 +47,4 @@ function Eng() {
   );
 }
 
-export default Eng;
+export default Swe;

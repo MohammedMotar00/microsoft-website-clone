@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Eng from "./Eng/Eng";
-import Swe from "./Swe";
+import Swe from "./Swe/Swe";
 import Arabic from "./Arabic";
 
 function App() {
