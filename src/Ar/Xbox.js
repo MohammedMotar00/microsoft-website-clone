@@ -1,11 +1,11 @@
-// Eng xbox
+// ar xbox
 import React from "react";
 import "../style.css";
 import { FaAngleRight } from "react-icons/fa";
 
 function Xbox() {
   return (
-    <section className="xbox eng">
+    <section className="xbox">
       <div className="content">
         <h2>Xbox Game Pass Ultimate</h2>
         <p>

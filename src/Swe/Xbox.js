@@ -5,7 +5,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 function Xbox() {
   return (
-    <section className="xbox">
+    <section className="xbox swe">
       <div className="content">
         <h2>Xbox One S</h2>
         <p>

@@ -54,6 +54,12 @@ ul {
           transform: translateY(4.5px);
 }
 
+.angle-left {
+  font-size: large;
+  -webkit-transform: translateY(4.5px);
+          transform: translateY(4.5px);
+}
+
 .globe-icon {
   font-size: x-large;
   -webkit-transform: translateY(8px);
@@ -259,6 +265,18 @@ ul {
   margin-bottom: 10px;
 }
 
+.showcase a:last-child {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.showcase a:last-child:hover .angle-left {
+  margin-right: 8px;
+}
+
 .showcase .btn {
   margin-top: 20px;
 }
@@ -293,6 +311,10 @@ ul {
 
 .home-cards a:hover .angle-right {
   margin-left: 8px;
+}
+
+.home-cards a:hover .angle-left {
+  margin-right: 8px;
 }
 
 .xbox {
@@ -439,6 +461,10 @@ footer p {
 }
 
 footer a:hover {
+  border-bottom: 1px solid;
+}
+
+footer .text-contain p:hover {
   border-bottom: 1px solid;
 }
 

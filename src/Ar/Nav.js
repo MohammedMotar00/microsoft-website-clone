@@ -1,4 +1,4 @@
-// Eng nav
+// ar nav
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
@@ -24,7 +24,7 @@ function Nav() {
         className="logo"
       />
 
-      <ul className={`main-menu ${toggle && "show"}`}>
+      <ul className={`main-menu ${toggle && "show"} ar`}>
         <li>
           <a href="#">Microsoft 365</a>
         </li>
@@ -35,20 +35,14 @@ function Nav() {
           <a href="#">Windows</a>
         </li>
         <li>
-          <a href="#">Surface</a>
-        </li>
-        <li>
           <a href="#">Xbox</a>
         </li>
         <li>
-          <a href="#">Deals</a>
-        </li>
-        <li>
-          <a href="#">Support</a>
+          <a href="#">الدعم</a>
         </li>
       </ul>
 
-      <ul className="right-menu">
+      <ul className="right-menu ar">
         <li>
           <a href="#">
             <FaSearch />

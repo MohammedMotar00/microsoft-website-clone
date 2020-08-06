@@ -1,12 +1,12 @@
-.showcase {
+.showcase.swe {
   background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4zr9t?ver=2fd2&q=90&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=205&s=2120&d=795&aim=true") no-repeat center center/cover;
 }
 
-.xbox {
+.xbox.swe {
   background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4zjdA?ver=f783&q=90&m=8&h=609&w=1083&b=%23FFFFFFFF&l=f&x=0&y=0&s=2116&d=1190&aim=true") no-repeat center center/cover;
 }
 
-.xbox .content {
+.xbox.swe .content {
   position: absolute;
   top: 60px;
   left: 10px;
@@ -14,8 +14,8 @@
   padding: 50px 0 0 30px;
 }
 
-.xbox p,
-.xbox .carbon p {
+.xbox.swe p,
+.xbox.swe .carbon p {
   margin: 10px 0 20px;
 }
 

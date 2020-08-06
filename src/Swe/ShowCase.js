@@ -5,7 +5,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 function Showcase() {
   return (
-    <header className="showcase">
+    <header className="showcase swe">
       <div>
         <h2>Kraftfull prestanda</h2>
         <p>
