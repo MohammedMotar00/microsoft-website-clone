@@ -1,3 +1,4 @@
+// Swe footer
 import React, { useState } from "react";
 import "../style.css";
 import { Link } from "react-router-dom";
@@ -16,57 +17,54 @@ function Footer() {
 
   return (
     <footer>
+      <div className="language-container">
+        <ul className={`language-ul ${open && "show"}`}>
+          <h1
+            onClick={closeLanguageMenu}
+            className={`close-language ${open && "show"}`}
+          >
+            X
+          </h1>
+          <div className={`text-contain ${open && "show"}`}>
+            <h2 className={`${open && "show"}`}>Choose language</h2>
+            <li className={`${open && "show"}`}>
+              <Link to="/">United States - English</Link>
+            </li>
+            <li className={`${open && "show"}`}>
+              <Link to="/swe">Sverige - Svenska</Link>
+            </li>
+            <li className={`${open && "show"}`}>
+              <Link to="/ar">العراق - العربية</Link>
+            </li>
+          </div>
+        </ul>
+      </div>
       <div className="footer-inner">
-        <div className="language-container">
-          <ul className={`language-ul ${open && "show"}`}>
-            <h1
-              onClick={closeLanguageMenu}
-              className={`close-language ${open && "show"}`}
-            >
-              X
-            </h1>
-            <div>
-              <h2 className={`${open && "show"}`}>Choose language</h2>
-              <li className={`${open && "show"}`}>
-                <Link to="/eng">United States - English</Link>
-              </li>
-              <li className={`${open && "show"}`}>
-                <Link to="/swe">Sverige - Svenska</Link>
-              </li>
-              <li className={`${open && "show"}`}>
-                <Link to="/ar">العراق - العربية</Link>
-              </li>
-            </div>
-          </ul>
-        </div>
-        <div onClick={handleLanguageMenu} style={{ cursor: "pointer" }}>
+        <div onClick={handleLanguageMenu}>
           <FaGlobeEurope className="globe-icon" />
-          English (United States)
+          <span>Svenska (Sverige)</span>
         </div>
         <ul>
           <li>
-            <a href="#">Sitemap</a>
+            <a href="#">Kontakta Microsoft</a>
           </li>
           <li>
-            <a href="#">Contact Microsoft</a>
+            <a href="#">Sekretess och cookies</a>
           </li>
           <li>
-            <a href="#">Privacy & cookies</a>
+            <a href="#">Juridiskt meddelande</a>
           </li>
           <li>
-            <a href="#">Terms of use</a>
+            <a href="#">Varumärken</a>
           </li>
           <li>
-            <a href="#">Trademarks</a>
+            <a href="#">Om våra annonser</a>
           </li>
           <li>
-            <a href="#">Safety & eco</a>
+            <a href="#">EU Compliance DoCs</a>
           </li>
           <li>
-            <a href="#">About our ads</a>
-          </li>
-          <li>
-            <a href="#">&copy; Microsoft 2020</a>
+            <p href="#">&copy; Microsoft 2020</p>
           </li>
         </ul>
       </div>

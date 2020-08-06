@@ -32,7 +32,8 @@ function Swe() {
         <HomeCard2 />
 
         {/* Carbon */}
-        <Carbon />
+        {/* den finns inte just nu i svenska sidan */}
+        {/* <Carbon /> */}
 
         {/* Follow */}
         <Follow />

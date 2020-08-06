@@ -1,3 +1,4 @@
+// Swe showcase
 import React from "react";
 import "../style.css";
 import { FaAngleRight } from "react-icons/fa";
@@ -6,13 +7,13 @@ function Showcase() {
   return (
     <header className="showcase">
       <div>
-        <h2>Up to $600 of Surface Laptop 3</h2>
+        <h2>Kraftfull prestanda</h2>
         <p>
-          Power through assingments and reflect your style with long-lasting
-          battery life in a stunning design
+          Nya Surface Book 3 är den kraftfullaste Surface-datorn hittills med
+          mångsidigheten hos en bärbar dator, surfplatta och bärbar studio
         </p>
         <a href="#" className="btn">
-          Shop now <FaAngleRight className="angle-right" />
+          Köp nu <FaAngleRight className="angle-right" />
         </a>
       </div>
     </header>

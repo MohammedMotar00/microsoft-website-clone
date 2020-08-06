@@ -1,3 +1,4 @@
+// Swe links
 import React from "react";
 import "../style.css";
 
@@ -7,7 +8,7 @@ function Links() {
       <div className="links-inner">
         <ul>
           <li>
-            <h3>What's New</h3>
+            <h3>Nyheter</h3>
           </li>
           <li>
             <a href="#">Surface Pro 2</a>
@@ -22,7 +23,7 @@ function Links() {
             <a href="#">Surface Pro X</a>
           </li>
           <li>
-            <a href="#">Windows 10 apps</a>
+            <a href="#">Windows 10 appar</a>
           </li>
         </ul>
         <ul>
@@ -30,53 +31,50 @@ function Links() {
             <h3>Microsoft Store</h3>
           </li>
           <li>
-            <a href="#">Account Profile</a>
+            <a href="#">Kontoprofil</a>
           </li>
           <li>
             <a href="#">Download Center</a>
           </li>
           <li>
-            <a href="#">Microsoft Store support</a>
+            <a href="#">Microsoft Store-support</a>
           </li>
           <li>
-            <a href="#">Returns</a>
+            <a href="#">Returner</a>
           </li>
           <li>
-            <a href="#">Order tracking</a>
+            <a href="#">Orderspåring</a>
           </li>
           <li>
-            <a href="#">Store locations</a>
+            <a href="#">Återvinning</a>
           </li>
           <li>
-            <a href="#">Vurtual workshops and training</a>
-          </li>
-          <li>
-            <a href="#">Microsoft Store Promise</a>
+            <a href="#">Kommersiella garantier</a>
           </li>
         </ul>
         <ul>
           <li>
-            <h3>Education</h3>
+            <h3>Utbildning</h3>
           </li>
           <li>
-            <a href="#">Microsfot in education</a>
+            <a href="#">Microsoft inom utbildning</a>
           </li>
           <li>
-            <a href="#">Office for students</a>
+            <a href="#">Office för studenter</a>
           </li>
           <li>
-            <a href="#">Office 365 for schools</a>
+            <a href="#">Office 365 for skolor</a>
           </li>
           <li>
-            <a href="#">Deals for students & parents</a>
+            <a href="#">Erbjudanden för elever och föräldrar</a>
           </li>
           <li>
-            <a href="#">Microsfot Azure in education</a>
+            <a href="#">Microsoft Azure inom utbildning</a>
           </li>
         </ul>
         <ul>
           <li>
-            <h3>Enterprise</h3>
+            <h3>Företag</h3>
           </li>
           <li>
             <a href="#">Azure</a>
@@ -85,27 +83,27 @@ function Links() {
             <a href="#">AppSource</a>
           </li>
           <li>
-            <a href="#">Automotive</a>
+            <a href="#">Fordon</a>
           </li>
           <li>
-            <a href="#">Government</a>
+            <a href="#">Myndigheter</a>
           </li>
           <li>
-            <a href="#">Healthcare</a>
+            <a href="#">Hälso- och sjukvård</a>
           </li>
           <li>
-            <a href="#">Manufacturing</a>
+            <a href="#">Tillverkning</a>
           </li>
           <li>
-            <a href="#">Financial services</a>
+            <a href="#">Finansiella tjänster</a>
           </li>
           <li>
-            <a href="#">Retail</a>
+            <a href="#">Handel</a>
           </li>
         </ul>
         <ul>
           <li>
-            <h3>Developer</h3>
+            <h3>Utvecklare</h3>
           </li>
           <li>
             <a href="#">Microsoft Visual Studio</a>
@@ -114,10 +112,7 @@ function Links() {
             <a href="#">Windows Dev Center</a>
           </li>
           <li>
-            <a href="#">Developer Network</a>
-          </li>
-          <li>
-            <a href="#">TechNet</a>
+            <a href="#">Utvecklarcenter</a>
           </li>
           <li>
             <a href="#">Microsoft developer program</a>
@@ -125,40 +120,28 @@ function Links() {
           <li>
             <a href="#">Channel 9</a>
           </li>
-          <li>
-            <a href="#">Office Dev Center</a>
-          </li>
-          <li>
-            <a href="#">Microsoft Garage</a>
-          </li>
         </ul>
         <ul>
           <li>
-            <h3>Company</h3>
+            <h3>Företag</h3>
           </li>
           <li>
-            <a href="#">Careers</a>
+            <a href="#">Karriärmöjligheter</a>
           </li>
           <li>
-            <a href="#">About Microsoft</a>
+            <a href="#">Om Microsoft</a>
           </li>
           <li>
-            <a href="#">Company news</a>
+            <a href="#">Företagsnyheter</a>
           </li>
           <li>
-            <a href="#">Privacy at Microsoft</a>
+            <a href="#">Sekretess på Microsoft</a>
           </li>
           <li>
-            <a href="#">Inverstors</a>
+            <a href="#">Investerare</a>
           </li>
           <li>
-            <a href="#">Diversity and inclusion</a>
-          </li>
-          <li>
-            <a href="#">Accessibility</a>
-          </li>
-          <li>
-            <a href="#">Security</a>
+            <a href="#">Säkerhet</a>
           </li>
         </ul>
       </div>

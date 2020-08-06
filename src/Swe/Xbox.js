@@ -1,3 +1,4 @@
+// Swe xbox
 import React from "react";
 import "../style.css";
 import { FaAngleRight } from "react-icons/fa";
@@ -6,13 +7,13 @@ function Xbox() {
   return (
     <section className="xbox">
       <div className="content">
-        <h2>Xbox Game Pass Ultimate</h2>
+        <h2>Xbox One S</h2>
         <p>
-          Xbox Live Gold and over 100 high-quality console and PC games. Play
-          together with friends and discover your next favorite game.
+          Bästa valet för spel och underhållning, med inbyggd 4K Ultra HD
+          Blu-ray och 4K-videostreaming
         </p>
         <a href="#" className="btn">
-          Join now <FaAngleRight className="angle-right" />
+          Köp nu <FaAngleRight className="angle-right" />
         </a>
       </div>
     </section>

@@ -68,10 +68,6 @@ ul {
   display: none;
 }
 
-.language-container .language-ul {
-  // display: none;
-}
-
 ///////////////////////
 // Nav
 ///////////////////////
@@ -320,6 +316,10 @@ ul {
   margin: 30px 0 30px;
   color: rgba(0, 0, 0, 0.6);
   line-height: 20px;
+
+  img:hover {
+    opacity: 0.7;
+  }
 }
 
 .follow * {
@@ -350,6 +350,10 @@ ul {
   li {
     line-height: 2.8;
   }
+
+  a:hover {
+    border-bottom: 1px solid;
+  }
 }
 
 ///////////////////////
@@ -373,9 +377,16 @@ footer {
 
   div {
     margin-bottom: 20px;
+    cursor: pointer;
 
     .globe-icon {
       margin-right: 10px;
+    }
+  }
+
+  div:hover {
+    span {
+      border-bottom: 1px solid;
     }
   }
 
@@ -386,6 +397,18 @@ footer {
 
   li {
     padding: 5px;
+  }
+
+  p {
+    cursor: auto;
+  }
+
+  a:hover {
+    border-bottom: 1px solid;
+  }
+
+  a:hover:last-child {
+    // border-bottom: none;
   }
 }
 
@@ -467,111 +490,6 @@ footer {
     border-bottom: none;
   }
 
-  .language-container {
-    // position: relative;
-    // width: 100%;
-
-    .language-ul {
-      // display: block;
-      // position: absolute;
-      // top: 50%;
-      // left: 50%;
-      // transform: translate(-50%, -90%);
-      // margin: 0 auto;
-      // background-color: #e9e8e8;
-      // width: 95%;
-      // height: 0px;
-      // border-right: 1px solid #ccc;
-      // border-left: 1px solid #ccc;
-      // border-top: 1px solid #ccc;
-      // opacity: 0.8;
-      // transition: all 0.5s ease-in-out;
-    }
-
-    h2,
-    li {
-      // margin-bottom: 15px;
-      // font-size: 20px;
-    }
-    h1,
-    h2,
-    li {
-      // display: none;
-    }
-
-    h2 {
-      // font-size: 25px;
-      // font-weight: 800;
-      // border-bottom: 2px solid #333;
-      // padding-bottom: 5px;
-    }
-
-    .language-ul.show {
-      // display: flex;
-      // flex-direction: column;
-      // justify-content: center;
-      // align-items: center;
-      // height: 300px;
-      // padding: 10px;
-    }
-
-    h1.show,
-    h2.show,
-    li.show {
-      // display: block;
-    }
-
-    .close-language {
-      // position: absolute;
-      // top: 10px;
-      // right: 25px;
-      // font-size: xx-large;
-    }
-
-    .close-language:hover {
-      // cursor: pointer;
-      // opacity: 0.9;
-      // color: rgb(226, 72, 72);
-    }
-  }
-
-  .language-container {
-    h2,
-    li {
-      // margin-bottom: 15px;
-      // font-size: 17px;
-    }
-
-    // h2 {
-    //   font-size: 21px;
-    //   font-weight: 800;
-    //   border-bottom: 2px solid #333;
-    //   padding-bottom: 5px;
-    // }
-
-    // ul.show {
-    //   display: flex;
-    //   flex-direction: column;
-    //   justify-content: center;
-    //   align-items: center;
-    //   height: 300px;
-    //   padding: 10px;
-    // }
-
-    // .close-language {
-    //   position: absolute;
-    //   top: 6px;
-    //   right: 20px;
-    //   font-size: xx-large;
-    // }
-
-    // .close-language:hover {
-    //   cursor: pointer;
-    //   opacity: 0.9;
-    //   color: rgb(226, 72, 72);
-    // }
-  }
-
   ///////////////////////
   // Home cards
   ///////////////////////
@@ -582,8 +500,6 @@ footer {
   ///////////////////////
   // Xbox
   ///////////////////////
-  .xbox {
-  }
   .xbox .content {
     p {
       display: none;
@@ -632,42 +548,6 @@ footer {
       margin-bottom: 20px;
     }
   }
-  // .language-container {
-  //   h2,
-  //   li {
-  //     margin-bottom: 15px;
-  //     font-size: 17px;
-  //   }
-
-  //   h2 {
-  //     font-size: 21px;
-  //     font-weight: 800;
-  //     border-bottom: 2px solid #333;
-  //     padding-bottom: 5px;
-  //   }
-
-  //   ul.show {
-  //     display: flex;
-  //     flex-direction: column;
-  //     justify-content: center;
-  //     align-items: center;
-  //     height: 300px;
-  //     padding: 10px;
-  //   }
-
-  //   .close-language {
-  //     position: absolute;
-  //     top: 6px;
-  //     right: 20px;
-  //     font-size: xx-large;
-  //   }
-
-  //   .close-language:hover {
-  //     cursor: pointer;
-  //     opacity: 0.9;
-  //     color: rgb(226, 72, 72);
-  //   }
-  // }
 }
 
 ///////////////////////

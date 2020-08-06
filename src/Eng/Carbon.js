@@ -1,5 +1,7 @@
+// Eng carbon
 import React from "react";
 import "../style.css";
+import "./eng.css";
 import { FaAngleRight } from "react-icons/fa";
 
 function Carbon() {

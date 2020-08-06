@@ -1,3 +1,4 @@
+// Swe nav
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
@@ -40,7 +41,7 @@ function Nav() {
           <a href="#">Xbox</a>
         </li>
         <li>
-          <a href="#">Deals</a>
+          <a href="#">Specialerbjudanden</a>
         </li>
         <li>
           <a href="#">Support</a>

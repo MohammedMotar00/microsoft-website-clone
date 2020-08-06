@@ -1,3 +1,4 @@
+// Eng footer
 import React, { useState } from "react";
 import "../style.css";
 import { Link } from "react-router-dom";
@@ -27,7 +28,7 @@ function Footer() {
           <div className={`text-contain ${open && "show"}`}>
             <h2 className={`${open && "show"}`}>Choose language</h2>
             <li className={`${open && "show"}`}>
-              <Link to="/eng">United States - English</Link>
+              <Link to="/">United States - English</Link>
             </li>
             <li className={`${open && "show"}`}>
               <Link to="/swe">Sverige - Svenska</Link>

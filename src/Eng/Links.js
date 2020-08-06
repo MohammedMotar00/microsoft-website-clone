@@ -1,3 +1,4 @@
+// Eng links
 import React from "react";
 import "../style.css";
 
@@ -59,7 +60,7 @@ function Links() {
             <h3>Education</h3>
           </li>
           <li>
-            <a href="#">Microsfot in education</a>
+            <a href="#">Microsoft in education</a>
           </li>
           <li>
             <a href="#">Office for students</a>
