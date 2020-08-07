@@ -1,11 +1,11 @@
-// ar showcase
+// ar banner
 import React from "react";
 import "../style.css";
 import { FaAngleLeft } from "react-icons/fa";
 
-function Showcase() {
+function Banner() {
   return (
-    <header className="showcase ar">
+    <header className="banner ar">
       <div>
         <h2>ها هو برنامج Microsoft 365</h2>
         <p>اكتشف ما يمكنك القيام به كل يوم باستخدام Microsoft 365</p>
@@ -21,4 +21,4 @@ function Showcase() {
   );
 }
 
-export default Showcase;
+export default Banner;

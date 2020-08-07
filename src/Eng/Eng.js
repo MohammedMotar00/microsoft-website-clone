@@ -3,11 +3,11 @@ import "../style.css";
 import "./eng.css";
 
 import Nav from "./Nav";
-import Showcase from "./Showcase";
+import Banner from "./Banner";
 import HomeCard1 from "./HomeCard1";
 import Xbox from "./Xbox";
 import HomeCard2 from "./HomeCard2";
-import Carbon from "./Carbon";
+import SimpleThingsCount from "./SimpleThingsCount";
 import Follow from "./Follow";
 import Links from "./Links";
 import Footer from "./Footer";
@@ -19,8 +19,8 @@ function Eng() {
         {/* Nav */}
         <Nav />
 
-        {/* Showcase */}
-        <Showcase />
+        {/* banner */}
+        <Banner />
 
         {/* Home card 1 */}
         <HomeCard1 />
@@ -32,7 +32,7 @@ function Eng() {
         <HomeCard2 />
 
         {/* Carbon */}
-        <Carbon />
+        <SimpleThingsCount />
 
         {/* Follow */}
         <Follow />

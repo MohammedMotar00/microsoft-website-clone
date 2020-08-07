@@ -1,4 +1,4 @@
-.showcase.swe {
+.banner.swe {
   background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4zr9t?ver=2fd2&q=90&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=205&s=2120&d=795&aim=true")
     no-repeat center center/cover;
 }
@@ -16,18 +16,13 @@
   }
 
   p,
-  .carbon p {
+  .simple-things p {
     margin: 10px 0 20px;
   }
 }
 
-.carbon {
-  background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4C5qj?ver=9745&q=90&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true")
-    no-repeat center center/cover;
-}
-
 @media (max-width: 750px) {
-  .showcase {
+  .banner {
     background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4zr9t?ver=2fd2&q=90&m=8&h=431&w=767&b=%23FFFFFFFF&l=f&x=0&y=316&s=1099&d=618&aim=true")
       no-repeat center center/cover;
   }

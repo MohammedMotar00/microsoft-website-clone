@@ -1,11 +1,11 @@
-// Swe showcase
+// Swe banner
 import React from "react";
 import "../style.css";
 import { FaAngleRight } from "react-icons/fa";
 
-function Showcase() {
+function Banner() {
   return (
-    <header className="showcase swe">
+    <header className="banner swe">
       <div>
         <h2>Kraftfull prestanda</h2>
         <p>
@@ -20,4 +20,4 @@ function Showcase() {
   );
 }
 
-export default Showcase;
+export default Banner;

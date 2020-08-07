@@ -1,7 +1,7 @@
 // ar homeCard1
 import React from "react";
 import "../style.css";
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleLeft } from "react-icons/fa";
 
 function HomeCard1() {
   return (
@@ -12,56 +12,50 @@ function HomeCard1() {
           alt="img 1"
         />
         <h3>Microsoft Teams</h3>
-        <p>Chat, meet, call, and collaborate</p>
+        <p>قم بالدردشة والاجتماع والاتصال والتعاون</p>
         <a href="#">
-          Learn More <FaAngleRight className="angle-right" />
+          ‬‏‫معرفة المزيد <FaAngleLeft className="angle-left" />
         </a>
       </div>
 
       <div>
         <img
-          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4tj4A?ver=592d&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"
+          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rzE2?ver=aa0b&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"
           alt="img 2"
         />
-        <h3>This is your 365</h3>
-        <p>Discover what's possible every day with Microsoft 365.</p>
+        <h3>نقدم Microsoft Edge الجديد</h3>
+        <p>أداء على مستوى عالمي مع خصوصية وإنتاجية وقيمة أكبر الاستعراض.</p>
         <div>
           <a href="#">
-            For up to 6 people <FaAngleRight className="angle-right" />
-          </a>
-          <a href="#">
-            For 1 person <FaAngleRight className="angle-right" />
+            تنزيل الآن <FaAngleLeft className="angle-left" />
           </a>
         </div>
       </div>
 
       <div>
         <img
-          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4ztzT?ver=af61&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"
+          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW6ivo?ver=2a13&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"
           alt="img 3"
         />
-        <h3>Up top $200 off Surface Book 3</h3>
-        <p>
-          Let inspiration strike with the fastest, most powerful Surface laptop
-          yet.
-        </p>
+        <h3>OneNote</h3>
+        <p>نظّم ملاحظاتك وحياتك.</p>
         <a href="#">
-          Shop now <FaAngleRight className="angle-right" />
+          معرفة المزيد <FaAngleLeft className="angle-left" />
         </a>
       </div>
 
       <div>
         <img
-          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4CIak?ver=f78a&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"
+          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE37Bcs?ver=e981&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"
           alt="img 4"
         />
-        <h3>Make it you with Windows x HP</h3>
+        <h3>Windows 10 Update</h3>
         <p>
-          See where your passion takes you with technology designed to work the
-          way you do.
+          نقدم لك ميزات جديدة لمساعدتك في متابعة شغفك، والاتصال بشكل أفضل،
+          واستعادة بعض الوقت.
         </p>
         <a href="#">
-          Learn More <FaAngleRight className="angle-right" />
+          معرفة المزيد <FaAngleLeft className="angle-left" />
         </a>
       </div>
     </section>

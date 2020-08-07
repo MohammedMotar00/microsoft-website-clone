@@ -1,11 +1,11 @@
-// Eng showcase
+// Eng banner
 import React from "react";
 import "../style.css";
 import { FaAngleRight } from "react-icons/fa";
 
-function Showcase() {
+function Banner() {
   return (
-    <header className="showcase">
+    <header className="banner eng">
       <div>
         <h2>Up to $600 of Surface Laptop 3</h2>
         <p>
@@ -20,4 +20,4 @@ function Showcase() {
   );
 }
 
-export default Showcase;
+export default Banner;

@@ -4,9 +4,9 @@ import "../style.css";
 import "./eng.css";
 import { FaAngleRight } from "react-icons/fa";
 
-function Carbon() {
+function SimpleThingsCount() {
   return (
-    <section className="carbon dark">
+    <section className="simple-things dark">
       <div className="content">
         <h2>Simple Things Count</h2>
         <p>
@@ -21,4 +21,4 @@ function Carbon() {
   );
 }
 
-export default Carbon;
+export default SimpleThingsCount;

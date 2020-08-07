@@ -8,22 +8,10 @@ function Links() {
       <div className="links-inner">
         <ul>
           <li>
-            <h3>What's New</h3>
-          </li>
-          <li>
-            <a href="#">Surface Pro 2</a>
-          </li>
-          <li>
-            <a href="#">Surface Book 3</a>
+            <h3>الجديد</h3>
           </li>
           <li>
             <a href="#">Microsoft 365</a>
-          </li>
-          <li>
-            <a href="#">Surface Pro X</a>
-          </li>
-          <li>
-            <a href="#">Windows 10 apps</a>
           </li>
         </ul>
         <ul>
@@ -31,135 +19,63 @@ function Links() {
             <h3>Microsoft Store</h3>
           </li>
           <li>
-            <a href="#">Account Profile</a>
+            <a href="#">ملف تعريف الحساب</a>
           </li>
           <li>
-            <a href="#">Download Center</a>
+            <a href="#">المرتجعات</a>
           </li>
           <li>
-            <a href="#">Microsoft Store support</a>
-          </li>
-          <li>
-            <a href="#">Returns</a>
-          </li>
-          <li>
-            <a href="#">Order tracking</a>
-          </li>
-          <li>
-            <a href="#">Store locations</a>
-          </li>
-          <li>
-            <a href="#">Vurtual workshops and training</a>
-          </li>
-          <li>
-            <a href="#">Microsoft Store Promise</a>
+            <a href="#">تعقب الطلب</a>
           </li>
         </ul>
         <ul>
           <li>
-            <h3>Education</h3>
+            <h3>التعليم</h3>
           </li>
           <li>
-            <a href="#">Microsoft in education</a>
+            <a href="#">التعليم</a>
           </li>
           <li>
-            <a href="#">Office for students</a>
+            <a href="#">Office للطلاب</a>
           </li>
           <li>
-            <a href="#">Office 365 for schools</a>
-          </li>
-          <li>
-            <a href="#">Deals for students & parents</a>
-          </li>
-          <li>
-            <a href="#">Microsfot Azure in education</a>
+            <a href="#">Office 365 للمدارس</a>
           </li>
         </ul>
         <ul>
           <li>
-            <h3>Enterprise</h3>
+            <h3>المؤسسة</h3>
           </li>
           <li>
-            <a href="#">Azure</a>
-          </li>
-          <li>
-            <a href="#">AppSource</a>
-          </li>
-          <li>
-            <a href="#">Automotive</a>
-          </li>
-          <li>
-            <a href="#">Government</a>
-          </li>
-          <li>
-            <a href="#">Healthcare</a>
-          </li>
-          <li>
-            <a href="#">Manufacturing</a>
-          </li>
-          <li>
-            <a href="#">Financial services</a>
-          </li>
-          <li>
-            <a href="#">Retail</a>
+            <a href="#">Microsoft Azure</a>
           </li>
         </ul>
         <ul>
           <li>
-            <h3>Developer</h3>
+            <h3>المطوّر</h3>
           </li>
           <li>
             <a href="#">Microsoft Visual Studio</a>
           </li>
           <li>
-            <a href="#">Windows Dev Center</a>
+            <a href="#">مركز المطورين</a>
           </li>
           <li>
-            <a href="#">Developer Network</a>
-          </li>
-          <li>
-            <a href="#">TechNet</a>
-          </li>
-          <li>
-            <a href="#">Microsoft developer program</a>
-          </li>
-          <li>
-            <a href="#">Channel 9</a>
-          </li>
-          <li>
-            <a href="#">Office Dev Center</a>
-          </li>
-          <li>
-            <a href="#">Microsoft Garage</a>
+            <a href="#">القناة 9</a>
           </li>
         </ul>
         <ul>
           <li>
-            <h3>Company</h3>
+            <h3>شركة</h3>
           </li>
           <li>
-            <a href="#">Careers</a>
+            <a href="#">الوظائف</a>
           </li>
           <li>
-            <a href="#">About Microsoft</a>
+            <a href="#">نبذة عن Microsoft</a>
           </li>
           <li>
-            <a href="#">Company news</a>
-          </li>
-          <li>
-            <a href="#">Privacy at Microsoft</a>
-          </li>
-          <li>
-            <a href="#">Inverstors</a>
-          </li>
-          <li>
-            <a href="#">Diversity and inclusion</a>
-          </li>
-          <li>
-            <a href="#">Accessibility</a>
-          </li>
-          <li>
-            <a href="#">Security</a>
+            <a href="#">المستثمرون</a>
           </li>
         </ul>
       </div>

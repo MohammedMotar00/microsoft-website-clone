@@ -1,5 +1,5 @@
 // Swe footer
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../style.css";
 import { Link } from "react-router-dom";
 import { FaGlobeEurope } from "react-icons/fa";
@@ -13,13 +13,6 @@ function Footer() {
 
   const closeLanguageMenu = () => {
     setOpen(false);
-  };
-
-  const newLanguage = () => {
-    // document.addEventListener("scroll", () => {
-    //   return (window.scrollY = 0);
-    // });
-    console.log("heeej");
   };
 
   return (
@@ -47,7 +40,7 @@ function Footer() {
         </ul>
       </div>
       <div className="footer-inner">
-        <div onClick={handleLanguageMenu}>
+        <div onClick={handleLanguageMenu} className="container-icon">
           <FaGlobeEurope className="globe-icon" />
           <span>Svenska (Sverige)</span>
         </div>
