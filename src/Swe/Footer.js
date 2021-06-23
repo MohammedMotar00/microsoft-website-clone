@@ -1,5 +1,5 @@
 // Swe footer
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../style.css";
 import { Link } from "react-router-dom";
 import { FaGlobeEurope } from "react-icons/fa";
