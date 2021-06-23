@@ -1,5 +1,5 @@
 // Swe footer
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../style.css";
 import { Link } from "react-router-dom";
 import { FaGlobeEurope } from "react-icons/fa";
@@ -39,6 +39,9 @@ function Footer() {
           </div>
         </ul>
       </div>
+
+      <h3>This is Microsoft Clone app and I will use it for my portfolio</h3>
+
       <div className="footer-inner">
         <div onClick={handleLanguageMenu} className="container-icon">
           <FaGlobeEurope className="globe-icon" />

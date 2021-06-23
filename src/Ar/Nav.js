@@ -18,11 +18,17 @@ function Nav() {
         <FaBars className="bars-menu" />
       </div>
 
-      <img
-        src="https://i.ibb.co/wwLhz98/logo.png"
-        alt="Logo"
-        className="logo"
-      />
+
+
+      <div className="logo-container">
+        <img
+          src="https://i.ibb.co/wwLhz98/logo.png"
+          alt="Logo"
+          className="logo"
+        />
+
+        <h3>Clone app</h3>
+      </div>
 
       <ul className={`main-menu ${toggle && "show"} ar`}>
         <li>
